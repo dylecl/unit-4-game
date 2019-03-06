@@ -69,6 +69,7 @@ $("#red").on("click", function() {
         resetScores();
         readCurrent();
         readTarget();
+        alert("You've won!");
     }
     else {
         losses++;
@@ -76,6 +77,7 @@ $("#red").on("click", function() {
         resetScores();
         readCurrent();
         readTarget();
+        
     }
 });
 $("#blue").on("click", function() {
@@ -91,6 +93,7 @@ $("#blue").on("click", function() {
         resetScores();
         readCurrent();
         readTarget();
+        alert("You've won!");
     }
     else {
         losses++;
@@ -114,6 +117,7 @@ $("#green").on("click", function() {
         resetScores();
         readCurrent();
         readTarget();
+        alert("You've won!");
     }
     else {
         losses++;
@@ -137,6 +141,7 @@ $("#yellow").on("click", function() {
         resetScores();
         readCurrent();
         readTarget();
+        alert("You've won!");
     }
     else {
         losses++;
